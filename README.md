@@ -10,20 +10,25 @@
 ![alt text](images/Relaxing_the_Identity_Constraint.png)
 
 ## 人类眼睛控制蛋白质序列与果蝇眼睛控制蛋白质序列的相似性比较
+local alignment得分：875
+
+HumanEyelessProtein local alignment序列: 'HSGVNQLGGVFVNGRPLPDSTRQKIVELAHSGARPCDISRILQVSNGCVSKILGRYYETGSIRPRAIGGSKPRVATPEVVSKIAQYKRECPSIFAWEIRDRLLSEGVCTNDNIPSVSSINRVLRNLASEK-QQ'
+
+FruitflyEyelessProtein local alignment序列: 'HSGVNQLGGVFVGGRPLPDSTRQKIVELAHSGARPCDISRILQVSNGCVSKILGRYYETGSIRPRAIGGSKPRVATAEVVSKISQYKRECPSIFAWEIRDRLLQENVCTNDNIPSVSSINRVLRNLAAQKEQQ'
+
 * 人类眼睛控制蛋白质序列：http://storage.googleapis.com/codeskulptor-alg/alg_HumanEyelessProtein.txt
 * 果蝇眼睛控制蛋白质序列：http://storage.googleapis.com/codeskulptor-alg/alg_FruitflyEyelessProtein.txt
 
-* local alignment得分：875
-* HumanEyelessProtein local alignment序列: 'HSGVNQLGGVFVNGRPLPDSTRQKIVELAHSGARPCDISRILQVSNGCVSKILGRYYETGSIRPRAIGGSKPRVATPEVVSKIAQYKRECPSIFAWEIRDRLLSEGVCTNDNIPSVSSINRVLRNLASEK-QQ'
-* FruitflyEyelessProtein local alignment序列: 'HSGVNQLGGVFVGGRPLPDSTRQKIVELAHSGARPCDISRILQVSNGCVSKILGRYYETGSIRPRAIGGSKPRVATAEVVSKISQYKRECPSIFAWEIRDRLLQENVCTNDNIPSVSSINRVLRNLAAQKEQQ'
-
-
 ## 单词拼写检查（拓展应用）
 测量两字符串序列之间的相似性还可用于单词拼写检查上。通过测量两字符串之间的编辑距离可以查验单词是否拼写正确，或者检查论文是否有抄袭的嫌疑。
+
+与单词"humble"编辑距离相差1的所有单词: 'bumble', 'humbled', 'tumble', 'humble', 'rumble', 'humbler', 'humbles', 'fumble', 'humbly', 'jumble', 'mumble'
+
+与单词"firefly"编辑距离相差2的所有单词: 'firefly', 'tiredly', 'freely', 'fireclay', 'direly', 'finely', 'firstly', 'liefly', 'fixedly', 'refly', 'firmly'
+
 * 字典：http://storage.googleapis.com/codeskulptor-assets/assets_scrabble_words3.txt
 
-
-参考链接：
+## 参考链接：
 * https://storage.googleapis.com/codeskulptor-alg/pdf/SequenceAlignment.pdf
 * https://en.wikipedia.org/wiki/Longest_common_subsequence_problem
 * https://en.wikipedia.org/wiki/Edit_distance
