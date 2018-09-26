@@ -6,6 +6,7 @@
 ![alt text](images/Sequence_Evolution.png)
 
 通过序列对齐，可以快速的分析两个基因序列之间的相似性。这里主要用到了Global Pairwise Alignment和Local Pairwise Alignment算法。
+
 ![alt text](images/Relaxing_the_Identity_Constraint.png)
 
 ## 人类眼睛控制蛋白质序列与果蝇眼睛控制蛋白质序列的相似性比较
