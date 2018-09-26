@@ -3,10 +3,10 @@
 
 物种的进化中伴随着基因的突变过程。尽管如此，在不同的物种中，许多功能相同的基因依然保持着相似性。这是因为它们在几百万年以前都来源于同一个祖先。
 
-![alt text](images/Sequence Evolution.png)
+![alt text](images/Sequence_Evolution.png)
 
 通过序列对齐，可以快速的分析两个基因序列之间的相似性。这里主要用到了Global Pairwise Alignment和Local Pairwise Alignment算法。
-![alt text](images/Relaxing the Identity Constraint.png)
+![alt text](images/Relaxing_the_Identity_Constraint.png)
 
 ## 人类眼睛控制蛋白质序列与果蝇眼睛控制蛋白质序列的相似性比较
 * 人类眼睛控制蛋白质序列：http://storage.googleapis.com/codeskulptor-alg/alg_HumanEyelessProtein.txt
