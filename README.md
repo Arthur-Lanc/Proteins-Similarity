@@ -16,6 +16,14 @@ HumanEyelessProtein local alignment序列: 'HSGVNQLGGVFVNGRPLPDSTRQKIVELAHSGARPC
 
 FruitflyEyelessProtein local alignment序列: 'HSGVNQLGGVFVGGRPLPDSTRQKIVELAHSGARPCDISRILQVSNGCVSKILGRYYETGSIRPRAIGGSKPRVATAEVVSKISQYKRECPSIFAWEIRDRLLQENVCTNDNIPSVSSINRVLRNLAAQKEQQ'
 
+从上面可以看到两蛋白质序列的相似性得分为875，但是为了证明这并不是偶然，需要设计一组实验证明。
+
+通过随机打乱果蝇的眼睛控制蛋白质序列，但是保留人类的眼睛控制蛋白质序列不变。可以获得一分值为横坐标，得分占比为纵坐标的条形图如下：
+
+![alt text](images/question4.png)
+
+如上可知，分值分布在37到82之间，但是local alignment得分为875。因为没有落在该分布的3被标准差范围内，所以这个得分并非偶然。
+
 * 人类眼睛控制蛋白质序列：http://storage.googleapis.com/codeskulptor-alg/alg_HumanEyelessProtein.txt
 * 果蝇眼睛控制蛋白质序列：http://storage.googleapis.com/codeskulptor-alg/alg_FruitflyEyelessProtein.txt
 
